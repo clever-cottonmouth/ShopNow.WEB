@@ -18,7 +18,7 @@ export class CartService {
 
     // check if we already have the item in our cart
     let alreadyExistsInCart: boolean = false;
-    let existingCartItem: CartItem | undefined = undefined;
+    let existingCartItem: any;
 
     if (this.cartItems?.length > 0) {
       // find the item in the cart based on item id
@@ -36,7 +36,7 @@ export class CartService {
 
     if (alreadyExistsInCart) {
       // increment the quantity
-      //existingCartItem.quantity++;
+      existingCartItem.quantity++;
     }
     else {
       // just add the item to the array
