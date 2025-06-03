@@ -1,27 +1,67 @@
-# ShopNowWEB
+# ShopNow Web Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+A modern e-commerce web application built with Angular 16, featuring a responsive design and user-friendly interface.
 
-## Development server
+## Project Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ShopNow is a web-based e-commerce platform that provides a seamless shopping experience. The application is built using Angular 16 and incorporates modern web development practices.
 
-## Code scaffolding
+## Tech Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend Framework**: Angular 16
+- **UI Framework**: Bootstrap 5
+- **Icons**: Font Awesome 6
+- **Package Manager**: npm
 
-## Build
+## Project Structure
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+shop-now.web/
+├── src/                    # Source files
+│   ├── app/               # Application components and modules
+│   ├── assets/            # Static assets (images, fonts, etc.)
+│   ├── environments/      # Environment configurations
+│   ├── styles.css         # Global styles
+│   ├── main.ts           # Application entry point
+│   └── index.html        # Main HTML file
+├── .angular/             # Angular build files
+├── .vscode/             # VS Code configuration
+├── node_modules/        # Dependencies
+├── angular.json         # Angular workspace configuration
+├── package.json         # Project dependencies and scripts
+├── tsconfig.json        # TypeScript configuration
+└── .gitignore          # Git ignore rules
+```
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Prerequisites**
+   - Node.js (LTS version)
+   - npm (comes with Node.js)
 
-## Running end-to-end tests
+2. **Installation**
+   ```bash
+   npm install
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. **Development Server**
+   ```bash
+   npm start
+   ```
+   Navigate to `http://localhost:4200/` in your browser.
 
-## Further help
+4. **Build**
+   ```bash
+   npm run build
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Available Scripts
+
+- `npm start` - Starts the development server
+- `npm run build` - Builds the application for production
+- `npm run test` - Runs unit tests
+- `npm run watch` - Builds the application and watches for changes
+
+## License
+
+This project is licensed under the terms included in the LICENSE file. 
